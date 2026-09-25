@@ -36,7 +36,7 @@ METHODS_AND_PROVENANCE.md
 | Fig. 1A | GSE144568, 6 controls + 15 MF | `R/01_GSE144568_all21_obj2.R` |
 | Fig. 1B-F | GSE144568 untreated subset, 4 controls + 6 MF | `R/02_GSE144568_untreated_obj3.R` |
 | Fig. 1G | GSEA Java desktop application | exact `.rnk` inputs in `data/GSEA_ranked_lists/` |
-| Fig. 2A | GSE122198/Target-seq; Excel + GraphPad Prism | `R/03_GSE122198_metadata.R`, `data/GSE122198/`, `results/Fig2A_GraphPad/` |
+| Fig. 2A | GSE122198/Target-seq; Excel + GraphPad Prism | `R/03_GSE122198_metadata.R`, `data/GSE122198/README.md`, `data/GSE122198/`, `results/Fig2A_GraphPad/` |
 | Fig. 2B | platelet transcriptomes; Excel + GraphPad Prism | source + log1p workbooks in `data/platelet/` |
 | Fig. 2C-D | platelet biomarker analysis | `data/platelet/synergy.xlsx`, `R/04_platelet_HMGA_biomarker.R` |
 | Fig. 2D check | independent calculation verification | `R/05_verify_Fig2D_biomarker_statistics.R` |
@@ -55,7 +55,7 @@ Figure 1G was run in the Broad Institute GSEA Java application. The repository i
 
 ## Excel and GraphPad Prism
 
-Figure 2A was prepared from GSE122198/Target-seq data through an Excel-to-Prism workflow. Figure 2B platelet expression/statistics were also performed in GraphPad Prism after Excel preparation. The compact Excel intermediates that could be traced confidently to the accepted figures are included; superseded working spreadsheets were omitted.
+Figure 2A was prepared from GSE122198/Target-seq data through an Excel-to-Prism workflow. The reconstructed file provenance and the three analysis groups (healthy control, MF JAK2-WT, and MF JAK2-mutant) are documented in `data/GSE122198/README.md`. Figure 2B platelet expression/statistics were also performed in GraphPad Prism after Excel preparation. The compact Excel intermediates that could be traced confidently to the accepted figures are included; superseded working spreadsheets were omitted.
 
 ## Reproducibility and cleanup
 
